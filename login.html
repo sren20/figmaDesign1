@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MetLab Web Design</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="signup">
+      <div class="signup_right_section">
+        <div class="signup_right_content login_right_content">
+          <h2>Login to continue</h2>
+
+          <form action="">
+            <div class="form_control">
+              <label for="email">Email Address</label>
+              <div class="input_div">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="name@gmail.com"
+                />
+                <div class="icon_div">
+                  <img
+                    src="assets/icons8-mail-500.png"
+                    alt="email-icon"
+                    width="24px"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <form action="">
+            <div class="form_control">
+              <label for="password">Password</label>
+              <div class="input_div">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="********"
+                />
+                <div class="icon_div">
+                  <img
+                    src="assets/icons8-lock-500.png"
+                    alt="lock-icon"
+                    width="24px"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="forgot_password_container">
+              <div class="remember_div">
+                <div>
+                  <input type="checkbox" name="remember" id="remember" />
+                </div>
+                <label for="remember">Remember me</label>
+              </div>
+
+              <a href="#">Forgot Password?</a>
+            </div>
+
+            <button><a href="#">Login</a></button>
+          </form>
+<div class="divider_container">
+  <span class="divider"></span>
+  <span>or</span>
+  <span class="divider"></span>
+</div>
+
+<button class="google_btn">
+  <span><img src="assets/icons8-google-48.png" alt="google_logo" width="24"></span>
+  <span id="google_login_text">Login with Google</span>
+
+</button>
+
+          <p class="login_link center_align">
+            Don't have an account? <a href="#">Sign up</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="signup_left_section">
+        <div><img src="assets/logo-design.png" alt="logo" width="189" /></div>
+        <h1>Welcome back.</h1>
+        <div>
+          <img
+            src="assets/virtual-office-boy.png"
+            alt="man_on_desk"
+            width="610"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

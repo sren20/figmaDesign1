@@ -2,10 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
+
 
 html{
     font-size: 16px;
+
 }
 
 .signup {
@@ -45,6 +49,13 @@ html{
     margin-bottom: 1rem;
 
 }
+
+.signup_right_section h2 {
+    font-weight: 700;
+
+
+}
+
 
 .signup_right_content {
     max-width: 524px;
@@ -114,4 +125,76 @@ html{
     translate: (50%, -50%);
 }
 
+/* login styles */
 
+.signup_left_section h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 102px;
+    color: white;
+    margin-top: 36px;
+    margin-bottom: 100px;
+
+}
+
+.login_right_content h2 {
+    font-size: 30px;
+    margin-bottom: 64px;
+    font-weight: 700;
+
+}
+
+.forgot_password_container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.remember_div {
+ display: flex;
+ gap: 8px;
+}
+
+.forgot_password_container a {
+    color:#50bff2;
+}
+
+.center_align {
+    text-align: center;
+}
+
+.divider_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.divider {
+    width: 196px;
+    height: 0px;
+    border: 1px solid gray;
+}
+
+
+.google_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #50bff2;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    background: white;
+    margin-bottom: 2rem;
+
+}
+
+#google_login_text {
+    color: #3643AA;
+    font-weight: 700;
+    font-size: 20px;
+}
